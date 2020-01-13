@@ -1,0 +1,76 @@
+body {
+    background-color: lightpink;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 12px;
+}
+
+.column {
+    left: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.column.left {
+    width: 50%;
+
+}
+
+.column.right {
+    width: 50%;
+    display: flow;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-container {
+    float: left;
+    padding: 10px;
+}
+
+.column2 {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+.column2.side {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.column2.middle {
+    width: 33.33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
