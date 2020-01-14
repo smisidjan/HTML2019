@@ -1,0 +1,63 @@
+* {
+  //*  border: dotted 1px gray; *//
+    margin: 10px;
+    align-self: center;
+}
+
+body {
+    margin: 5px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 16% 34% 10% 40%;
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.eten {
+    display: flex;
+    grid-column: 4/5;
+}
+
+.textinput {
+    width: 300px;
+    border: solid 1px cornflowerblue;
+}
+
+.kleurogen, .geboortedatum, .omschrijving {
+    grid-column: 1/2;
+}
+
+.inputogen, .inputdatum, .inputomschrijving {
+    grid-column: 2/3;
+}
+
+.breedte {
+    width: 200px;
+    border: solid 1px cornflowerblue;
+}
+
+.breedteomschrijving {
+    width: 300px;
+    height: 80px;
+    border: solid 1px cornflowerblue;
+}
+
+.button {
+    grid-column:  4/5;
+    width: 100px;
+    display: flex;
+}
+
+
+
+
+
+

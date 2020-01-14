@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoofdstuk 6</title>
+    <link rel="stylesheet" type="text/css" href="../h05/burtonEducation.css">
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Burton Education</h1>
+</header>
+<nav id="nav">
+    <ul>
+        <li><a href="index.html">Over ons</a></li>
+        <li><a href="index.html">Producten</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+<form action="formtest.php" method="post">
+    <label for="voornaam">Voornaam</label>
+    <input class="textinput" type="text" name="voornaam" id="voornaam">
+
+    <label>Lekker eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+    </div>
+
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="textinput" type="text" name="tussenvoegsel" id="tussenvoegsel">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappelen</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="textinput" type="text" name="achternaam" id="achternaam">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label for="geslacht">Geslacht</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="man">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="vrouw">
+        <label>Vrouw</label>
+    </div>
+
+    <label class="kleurogen" for="kleurogen">Kleur ogen</label>
+    <div class="inputogen">
+        <select class="breedte" name="kleurogen" id="kleurogen">
+            <option>...</option>
+            <option>groen</option>
+            <option>blauw</option>
+            <option>bruin</option>
+        </select>
+    </div>
+
+    <label class="geboortedatum" for="geboortedatum">Geboortedatum</label>
+    <div class="inputdatum">
+        <input class="breedte" type="date" name="geboortedatum" id="geboortedatum">
+    </div>
+
+    <label class="omschrijving" for="omschrijving">Omschrijving</label>
+    <div class="inputomschrijving">
+        <textarea class="breedteomschrijving" type="text" name="omschrijving" id="omschrijving"></textarea>
+    </div>
+
+    <div class="button">
+    <input class="button" type="reset" name="annuleren" value="Annuleren">
+    <input class="button" type="submit" name="Ok" value="Verzenden">
+    </div>
+</form>
+
+</body>
+</html>
