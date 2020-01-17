@@ -52,9 +52,16 @@ input {
 
 .button {
     grid-column:  4/5;
+    grid-row: 8/9;
     width: 100px;
     display: flex;
 }
+
+#kleurogen, #omschrijving {
+    margin-left: 5px;
+}
+
+
 
 
 
